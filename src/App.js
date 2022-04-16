@@ -1,6 +1,7 @@
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Expenses from "./components/Expenses/Expenses";
+import NewExpense from "./components/NewExpense/NewExpense";
 import "./App.css";
 
 const App = () => {
@@ -34,6 +35,7 @@ const App = () => {
   return (
     <div>
       <Header></Header>
+      <NewExpense/>
       <Expenses items={expenses} />
       <Footer></Footer>
     </div>
