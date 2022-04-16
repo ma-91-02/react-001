@@ -18,17 +18,17 @@ function App() {
     {
       title: "Car Insurance",
       amount: 342.67,
-      date: new Date(2021, 2, 28),
+      date: new Date(2021, 4, 12),
     },
     {
       title: "Car Insurance",
       amount: 434.67,
-      date: new Date(2021, 2, 28),
+      date: new Date(2021, 5, 22),
     },
     {
       title: "Car Insurance",
       amount: 65.67,
-      date: new Date(2021, 2, 28),
+      date: new Date(2021, 6, 4),
     },
   ];
   return (
