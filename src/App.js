@@ -1,10 +1,9 @@
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import ExpenseItem from "./components/ExpenseItem";
-import Expenses from './components/Expenses';
+import Expenses from "./components/Expenses/Expenses";
 import "./App.css";
 
-function App() {
+const App = () => {
   const expenses = [
     {
       title: "Car Insurance",
@@ -35,10 +34,10 @@ function App() {
   return (
     <div>
       <Header></Header>
-      <Expenses items={expenses}/>
+      <Expenses items={expenses} />
       <Footer></Footer>
     </div>
   );
-}
+};
 
 export default App;
